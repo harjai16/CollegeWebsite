@@ -1,0 +1,102 @@
+* {-moz-box-sizing: border-box;box-sizing: border-box}
+body {font-family :sans-serif,"Arial";font-size: 14px;background: #29af94 url(bg.png);color: #333;background-size: 100%;}
+.header{text-align:center;color:#fff;margin-bottom: 15px;}
+.header h1{margin: 4px;font-size: 22px;line-height: 25px;}
+.header h1 span{font-size: 16px; margin: 0px; font-weight: 600;color:#29af94}
+.logincontainer{margin: -24px auto;width: 370px;padding: 0px 0px 0px 30px;/* background: #ffffff; *//* box-shadow: 0px 0px 0px #31544d; *//* border-top: 0px solid #29af94; *//* border-radius: 4px; *//* margin-top: 0px; */float: left;}
+.logincontainer h4{margin-top: 0px;font-size: 24px;color: #ff9001;text-transform: uppercase;border-bottom: 1px solid #e8e8e8;padding-bottom: 7px;margin-bottom: 18px;text-align: left;}
+.logincontainer .controls {margin-bottom: 15px;}
+.logincontainer .controls label{font-size: 15px;margin-bottom: 6px;  display: block; color: #909090;}
+.logincontainer .controls input{display: block;width: 100%;padding: 6px 12px;font-size: 14px;line-height: 1.42857143;color: #909090;background-color: #fcfcfe;background-image: none;border: 1px solid #e6e6e6;border-radius: 3px;-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);box-shadow: inset 0 1px 1px rgba(0,0,0,.075);-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;}
+.logincontainer .controls input:focus{border-color: #ffaa01 !important;outline: 0;}
+.logincontainer .controls .button{border: 0;outline: none;padding: 11px 14px;font-size: 13px;text-align: center; cursor:pointer; background: #ffaa01;color: #ffffff;-webkit-transition: all 0.5s ease;transition: all 0.5s ease;-webkit-appearance: none;font-weight: bold;display: block;border-radius: 50px;text-decoration: none;}
+.controls .button:hover,.controls .button:focus {background: #dc9507;}
+.footersec{padding:10px 10px;text-align:center;margin-top:18px;color: #dadada;}
+.forgot{float:right;color: #fff;text-decoration: none;letter-spacing: .5px; font-size: 15px;padding-top: 9px;}
+.forgot:hover,.forgot:focus{color:#29af94}
+.footersec p{color: #2f2929;text-decoration: none;letter-spacing: .5px;font-size: 13px;margin-bottom: 0px;margin-top: 5px;}
+.clearfix{ clear:both; margin-bottom:10px;}
+.loginboxs{background: url(whitebg.png) no-repeat;width: 57%;height: 525px;margin: 7% auto 0px;}
+.logos img{padding: 6% 12%;}
+.portlet{padding: 0px 120px;}
+.leftimg{float: left;}
+.leftimg img{width: 310px;margin-top: -14px;}
+.refresh{background: #ffaa01;padding: 7px;border-radius: 4px;margin-right: 0px;}
+.code{border: 1px solid #e6e6e6;padding: 4px;border-radius: 3px;box-shadow: inset 0 1px 1px rgba(0,0,0,.075);}
+.otp{font-size: 18px;color: #ff8401;text-align: center;font-weight: bold;}
+.btns{float: left;width: 31%;margin-right: 2%;}
+.logincontainer .controls .sky {border: 0;outline: none;padding: 8px 5px;font-size: 13px;letter-spacing: 1px;background: #25cbf1;color: #ffffff;-webkit-transition: all 0.5s ease;transition: all 0.5s ease;-webkit-appearance: none;font-weight: normal;display: block;border-radius: 50px;}
+.controls .sky:hover,.controls .sky:focus {background:#17afd2;}
+
+.btnss{float: left;width: 48%;margin-right: 2%;}
+
+.refresh input#imgbtnRefresh{ cursor:pointer;}
+.refresh:hover{ background:#d68e00; cursor:pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1680px){
+ .loginboxs {width: 65%;}    
+       
+}
+      
+ @media (max-width: 1366px){
+ .loginboxs {width: 70%;}        
+ .loginboxs { margin: 5% auto 0px;}   
+} 
+
+
+@media (max-width: 1280px){
+ .loginboxs {width: 75%;}        
+   
+}
+      
+    
+  
+  
+@media (max-width: 1024px){
+ .loginboxs {width: 93%;}        
+ .loginboxs { margin: 11% auto 0px;}
+ 
+      
+}
+ 
+ @media (max-width: 768px){
+ .loginboxs {width: 100%;}        
+ .leftimg { display: none;}  
+ .loginboxs { background: #fff;} 
+     
+}
+   
+    
+  @media (max-width: 640px){  
+.logos img {padding: 6% 3%;}
+.portlet { padding: 34px 24px;}
+
+}
+
+
+@media (max-width: 640px){  
+.portlet { padding: 34px 0px;}
+
+
+}

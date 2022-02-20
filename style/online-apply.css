@@ -1,0 +1,29 @@
+*
+{
+	background: url('../images/background.jpg');
+	color:darkorange;
+	font-weight: bold;
+	text-align: center;
+	font-size: 22px;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-transform: uppercase;
+
+}
+
+h3
+{
+	/* font-family: Raleway, sans-serif; */
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-shadow: 1px 1px #6f1017;
+	margin-top: 15%;
+}
+
+#progressBar{
+	background-color: #6f1017;
+	color: #fff;
+}
+.progress
+{
+	background-color: #6f1017;
+}

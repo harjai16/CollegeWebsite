@@ -1,0 +1,92 @@
+
+        #loading {
+            width: 100vw;
+            height: 100vh;
+            background: rgba(5, 4, 4, 0.7);
+            position: fixed;
+            z-index: 1000000;
+            -webkit-transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -ms-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out
+        }
+        
+        #loading.dark-back {
+            background: #272e38
+        }
+        
+        #loading .loading-bar {
+            position: relative;
+            overflow: hidden;
+            top: 0;
+            height: 0.3rem;
+            width: 100vw;
+            background: rgba(89, 46, 56, 0.3)
+        }
+        
+        #loading .loading-bar:after {
+            content: '';
+            position: fixed;
+            top: 0;
+            z-index: 10;
+            background: #fff;
+            height: 0.3rem;
+            width: 30vw;
+            -webkit-border-radius: 10rem;
+            -moz-border-radius: 10rem;
+            -ms-border-radius: 10rem;
+            border-radius: 10rem;
+            -webkit-animation: baranim 4s infinite linear;
+            -moz-animation: baranim 4s infinite linear;
+            animation: baranim 4s infinite linear
+        }
+        
+        #loading span {
+            position: fixed;
+            width: 100%;
+            top: 49vh;
+            z-index: 10;
+            font-size: 1rem;
+            letter-spacing: 0.5rem;
+            text-align: center;
+            text-transform: uppercase
+        }
+        
+        @-webkit-keyframes baranim {
+            0% {
+                -webkit-transform: translateX(-30vw)
+            }
+        
+            100% {
+                -webkit-transform: translateX(130vw)
+            }
+        }
+        
+        @-moz-keyframes baranim {
+            0% {
+                -moz-transform: translateX(-30vw)
+            }
+        
+            100% {
+                -moz-transform: translateX(130vw)
+            }
+        }
+        
+        @keyframes baranim {
+            0% {
+                -webkit-transform: translateX(-30vw);
+                -moz-transform: translateX(-30vw);
+                -ms-transform: translateX(-30vw);
+                -o-transform: translateX(-30vw);
+                transform: translateX(-30vw)
+            }
+        
+            100% {
+                -webkit-transform: translateX(130vw);
+                -moz-transform: translateX(130vw);
+                -ms-transform: translateX(130vw);
+                -o-transform: translateX(130vw);
+                transform: translateX(130vw)
+            }
+        }
